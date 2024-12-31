@@ -79,16 +79,16 @@ const stages = [trailsStage, mainStage];
 
 //随机文字烟花内容
 const randomWords = [
-    "周琳，健康快乐",
-    "周琳，事业顺利",
-    "周琳，家庭幸福",
-    "周琳，友谊长存",
-    "周琳，心想事成",
-    "周琳，财源广进",
-    "周琳，平安顺遂",
-    "周琳，学习进步",
-    "周琳，旅行愉快",
-    "周琳，自我成长"
+    "刘双贺，新年快乐",
+    "刘双贺，事业顺利",
+    "刘双贺，家庭幸福",
+    "刘双贺，友谊长存",
+    "刘双贺，心想事成",
+    "刘双贺，财源广进",
+    "刘双贺，平安顺遂",
+    "刘双贺，学习进步",
+    "刘双贺，旅行愉快",
+    "刘双贺，自我成长"
 ];
 const wordDotsMap = {};
 randomWords.forEach((word) => {
@@ -511,7 +511,7 @@ const updateConfigNoEvent = () => updateConfig();
 appNodes.quality.addEventListener("input", updateConfigNoEvent);
 appNodes.shellType.addEventListener("input", updateConfigNoEvent);
 appNodes.shellSize.addEventListener("input", updateConfigNoEvent);
-appNodes.wordShell.addEventListener("click", () => setTimeout(updateConfig, 0));
+appNodes.wordShell.addEventListener("click", () => setTimeout(updateConfig, 2000));
 appNodes.autoLaunch.addEventListener("click", () => setTimeout(updateConfig, 0));
 appNodes.finaleMode.addEventListener("click", () => setTimeout(updateConfig, 0));
 appNodes.skyLighting.addEventListener("input", updateConfigNoEvent);
