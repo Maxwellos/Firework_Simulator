@@ -511,7 +511,7 @@ const updateConfigNoEvent = () => updateConfig();
 appNodes.quality.addEventListener("input", updateConfigNoEvent);
 appNodes.shellType.addEventListener("input", updateConfigNoEvent);
 appNodes.shellSize.addEventListener("input", updateConfigNoEvent);
-appNodes.wordShell.addEventListener("click", () => setTimeout(updateConfig, 2000));
+appNodes.wordShell.addEventListener("click", () => setTimeout(updateConfig, 0));
 appNodes.autoLaunch.addEventListener("click", () => setTimeout(updateConfig, 0));
 appNodes.finaleMode.addEventListener("click", () => setTimeout(updateConfig, 0));
 appNodes.skyLighting.addEventListener("input", updateConfigNoEvent);
