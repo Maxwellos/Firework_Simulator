@@ -78,7 +78,18 @@ const mainStage = new Stage("main-canvas");
 const stages = [trailsStage, mainStage];
 
 //随机文字烟花内容
-const randomWords = ["周琳大小姐驾到","周林新年快乐"];
+const randomWords = [
+    "周琳，健康快乐",
+    "周琳，事业顺利",
+    "周琳，家庭幸福",
+    "周琳，友谊长存",
+    "周琳，心想事成",
+    "周琳，财源广进",
+    "周琳，平安顺遂",
+    "周琳，学习进步",
+    "周琳，旅行愉快",
+    "周琳，自我成长"
+];
 const wordDotsMap = {};
 randomWords.forEach((word) => {
 	wordDotsMap[word] = MyMath.literalLattice(word, 3, "Gabriola,华文琥珀", "90px");
